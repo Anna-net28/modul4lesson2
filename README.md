@@ -1,9 +1,9 @@
-echo "# modul4" >> README.md
+echo "# modul4.lesson3" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Anna-net28/modul4.git
+git remote add origin https://github.com/Anna-net28/modul4.lesson3.git
 git push -u origin main
 # git-config
 git config --global core.safecrlf warn
@@ -17,6 +17,4 @@ git status
 git add .
 git commit -m "pro"
 git diff --color-words
-git push
-# modul4-lesson1
-# modul4lesson2
+git push# modul4.lesson3
