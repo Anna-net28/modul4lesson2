@@ -1,11 +1,9 @@
 "use strict"
 const rain = Math.random(Math.round());
-if (rain) {
-}
-else if (rain > 0) {  
+if (rain> 0) {
     alert('Пошёл дождь. Возьмите зонт!');
 }
-else if (rain == 0) {
+else if (rain === 0) {
     alert('Дождя нет!');
 }
 console.log(rain);
